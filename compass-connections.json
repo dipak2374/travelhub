@@ -1,0 +1,24 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "685dfa19-4168-4d36-bdd0-941e5110b812",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1783146068611"
+        }
+      },
+      "favorite": {
+        "name": "travelhub"
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb://localhost:27017/",
+        "oidc": {}
+      }
+    }
+  ]
+}
