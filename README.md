@@ -187,8 +187,8 @@ npm run start        # Starts server + client preview
 | Variable | Description |
 |----------|-------------|
 | `PORT` | Server port (default: 5000) |
-| `MONGODB_URI` | MongoDB connection string |
-| `JWT_SECRET` | JWT signing secret |
+| `MONGODB_URI` | MongoDB connection string. Use Render Environment Variables for deployment, or local `.env` only for development. |
+| `JWT_SECRET` | JWT signing secret. Must be set in Render for production. |
 | `JWT_EXPIRE` | Token expiry (default: 7d) |
 | `CLIENT_URL` | Frontend URL for CORS |
 | `SMTP_*` | Nodemailer email config |
