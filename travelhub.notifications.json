@@ -1,0 +1,220 @@
+[{
+  "_id": {
+    "$oid": "6a3fc9467f54243101a5f2a7"
+  },
+  "user": {
+    "$oid": "6a3f5a8bedd89d20f641163c"
+  },
+  "title": "Booking Confirmed",
+  "message": "Your booking TH-1782565160389-V1N9GT has been confirmed.",
+  "type": "booking",
+  "link": "/bookings/6a3fc9287f54243101a5f29c",
+  "isRead": false,
+  "createdAt": {
+    "$date": "2026-06-27T12:59:50.219Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-27T12:59:50.219Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3fcad97f54243101a5f300"
+  },
+  "user": {
+    "$oid": "6a3f5a8bedd89d20f641163c"
+  },
+  "title": "Booking Confirmed",
+  "message": "Your booking TH-1782565569385-TYE7US has been confirmed.",
+  "type": "booking",
+  "link": "/bookings/6a3fcac17f54243101a5f2f5",
+  "isRead": false,
+  "createdAt": {
+    "$date": "2026-06-27T13:06:33.815Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-27T13:06:33.815Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3fd2949bfaff835a9f9b88"
+  },
+  "user": {
+    "$oid": "6a3f5a8bedd89d20f641163c"
+  },
+  "title": "Booking Confirmed",
+  "message": "Your booking TH-1782567538641-337QWG has been confirmed.",
+  "type": "booking",
+  "link": "/bookings/6a3fd2729bfaff835a9f9b7d",
+  "isRead": false,
+  "createdAt": {
+    "$date": "2026-06-27T13:39:32.269Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-27T13:39:32.269Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a40bb2bd6b9eed8567f493b"
+  },
+  "user": {
+    "$oid": "6a3f5a8bedd89d20f641163c"
+  },
+  "title": "Booking Confirmed",
+  "message": "Your booking TH-1782627078131-6ZQGZA has been confirmed.",
+  "type": "booking",
+  "link": "/bookings/6a40bb06d6b9eed8567f4930",
+  "isRead": false,
+  "createdAt": {
+    "$date": "2026-06-28T06:11:55.606Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-28T06:11:55.606Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a40bc91d6b9eed8567f49b5"
+  },
+  "user": {
+    "$oid": "6a3f5a8bedd89d20f641163c"
+  },
+  "title": "Booking Confirmed",
+  "message": "Your booking TH-1782627418804-YS38UK has been confirmed.",
+  "type": "booking",
+  "link": "/bookings/6a40bc5ad6b9eed8567f49aa",
+  "isRead": false,
+  "createdAt": {
+    "$date": "2026-06-28T06:17:53.656Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-28T06:17:53.656Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a420ed3d1466e3513205b72"
+  },
+  "user": {
+    "$oid": "6a3f5a8bedd89d20f641163c"
+  },
+  "title": "Booking Confirmed",
+  "message": "Your booking TH-1782714028307-E4KKM4 has been confirmed.",
+  "type": "booking",
+  "link": "/bookings/6a420eacd1466e3513205b67",
+  "isRead": false,
+  "createdAt": {
+    "$date": "2026-06-29T06:21:07.855Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-29T06:21:07.855Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a449e4680afc35308ec3334"
+  },
+  "user": {
+    "$oid": "6a3f5a8bedd89d20f641163c"
+  },
+  "title": "Booking Confirmed",
+  "message": "Your booking TH-1782881832660-AUQMPR has been confirmed.",
+  "type": "booking",
+  "link": "/bookings/6a449e2880afc35308ec3329",
+  "isRead": false,
+  "createdAt": {
+    "$date": "2026-07-01T04:57:42.416Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-01T04:57:42.416Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a449fb293378b1452518a56"
+  },
+  "user": {
+    "$oid": "6a3f5a8bedd89d20f641163c"
+  },
+  "title": "Refund Request Received",
+  "message": "Your refund request for TH-1782565160389-V1N9GT has been received. Refund of 1299 will be processed within 5-7 business days.",
+  "type": "refund",
+  "link": "/refunds",
+  "isRead": false,
+  "createdAt": {
+    "$date": "2026-07-01T05:03:46.452Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-01T05:03:46.452Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a449fb793378b1452518a82"
+  },
+  "user": {
+    "$oid": "6a3f5a8bedd89d20f641163c"
+  },
+  "title": "Refund Request Received",
+  "message": "Your refund request for TH-1782563716006-Q1AQY0 has been received. Refund of 2048 will be processed within 5-7 business days.",
+  "type": "refund",
+  "link": "/refunds",
+  "isRead": false,
+  "createdAt": {
+    "$date": "2026-07-01T05:03:51.022Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-01T05:03:51.022Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a44a68093378b1452518eda"
+  },
+  "user": {
+    "$oid": "6a3f5a8bedd89d20f641163c"
+  },
+  "title": "Refund Request Received",
+  "message": "Your refund request for TH-1782881832660-AUQMPR has been received. Refund of 50000 will be processed within 5-7 business days.",
+  "type": "refund",
+  "link": "/refunds",
+  "isRead": false,
+  "createdAt": {
+    "$date": "2026-07-01T05:32:48.660Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-01T05:32:48.660Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a44a73e93378b1452518f7b"
+  },
+  "user": {
+    "$oid": "6a3f5a8bedd89d20f641163c"
+  },
+  "title": "Booking Confirmed",
+  "message": "Your booking TH-1782884128336-KOW8V3 has been confirmed.",
+  "type": "booking",
+  "link": "/bookings/6a44a72093378b1452518f70",
+  "isRead": false,
+  "createdAt": {
+    "$date": "2026-07-01T05:35:58.613Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-01T05:35:58.613Z"
+  },
+  "__v": 0
+}]

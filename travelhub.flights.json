@@ -1,0 +1,135 @@
+[{
+  "_id": {
+    "$oid": "6a4600b67fb768e11361e5a6"
+  },
+  "flightNumber": "SW-101",
+  "airline": "SkyWings Airlines",
+  "origin": {
+    "city": "New York",
+    "airport": "JFK",
+    "code": "JFK"
+  },
+  "destination": {
+    "city": "London",
+    "airport": "Heathrow",
+    "code": "LHR"
+  },
+  "departureTime": {
+    "$date": "2026-07-09T02:30:58.431Z"
+  },
+  "arrivalTime": {
+    "$date": "2026-07-09T15:00:58.431Z"
+  },
+  "duration": 450,
+  "price": {
+    "economy": 599,
+    "business": 1899,
+    "firstClass": 4500
+  },
+  "totalSeats": 200,
+  "availableSeats": 156,
+  "owner": {
+    "$oid": "6a4600b57fb768e11361e59a"
+  },
+  "isApproved": true,
+  "isActive": true,
+  "averageRating": 4.3,
+  "reviewCount": 0,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-02T06:09:58.434Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-02T06:09:58.434Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a4600b67fb768e11361e5a7"
+  },
+  "flightNumber": "SW-205",
+  "airline": "SkyWings Airlines",
+  "origin": {
+    "city": "Dubai",
+    "airport": "DXB",
+    "code": "DXB"
+  },
+  "destination": {
+    "city": "Singapore",
+    "airport": "Changi",
+    "code": "SIN"
+  },
+  "departureTime": {
+    "$date": "2026-07-09T08:30:58.431Z"
+  },
+  "arrivalTime": {
+    "$date": "2026-07-09T16:30:58.431Z"
+  },
+  "duration": 420,
+  "price": {
+    "economy": 399,
+    "business": 1299,
+    "firstClass": 3200
+  },
+  "totalSeats": 180,
+  "availableSeats": 120,
+  "owner": {
+    "$oid": "6a4600b57fb768e11361e59a"
+  },
+  "isApproved": true,
+  "isActive": true,
+  "averageRating": 4.6,
+  "reviewCount": 0,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-02T06:09:58.435Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-02T06:09:58.435Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a473710b9adbf66bccf3d61"
+  },
+  "flightNumber": "AL-29",
+  "airline": "Air India",
+  "origin": {
+    "city": "New Delhi",
+    "airport": "indira gandhi intl",
+    "code": "DEL"
+  },
+  "destination": {
+    "city": "Mumbai",
+    "airport": "chhatrapati shivaji Intl",
+    "code": "BOM"
+  },
+  "departureTime": {
+    "$date": "2026-07-03T08:30:00.000Z"
+  },
+  "arrivalTime": {
+    "$date": "2026-07-03T12:30:00.000Z"
+  },
+  "duration": 240,
+  "price": {
+    "economy": 2000,
+    "business": 4000,
+    "firstClass": 6000
+  },
+  "totalSeats": 180,
+  "availableSeats": 180,
+  "owner": {
+    "$oid": "6a4600b47fb768e11361e596"
+  },
+  "isApproved": true,
+  "isActive": true,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "createdAt": {
+    "$date": "2026-07-03T04:14:08.812Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-03T04:58:29.769Z"
+  },
+  "__v": 0
+}]

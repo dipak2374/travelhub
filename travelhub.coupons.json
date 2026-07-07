@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "6a4600b67fb768e11361e5bb"
+  },
+  "code": "WELCOME20",
+  "description": "20% off your first booking",
+  "discountType": "percentage",
+  "discountValue": 20,
+  "minOrderAmount": 0,
+  "maxDiscount": 100,
+  "validUntil": {
+    "$date": "2026-09-30T06:09:58.464Z"
+  },
+  "usageLimit": 100,
+  "usedCount": 0,
+  "applicableTypes": [
+    "all"
+  ],
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a4600b47fb768e11361e596"
+  },
+  "validFrom": {
+    "$date": "2026-07-02T06:09:58.465Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-02T06:09:58.466Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-02T06:09:58.466Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a4600b67fb768e11361e5bc"
+  },
+  "code": "FLIGHT50",
+  "description": "$50 off flight bookings",
+  "discountType": "fixed",
+  "discountValue": 50,
+  "minOrderAmount": 200,
+  "validUntil": {
+    "$date": "2026-08-31T06:09:58.464Z"
+  },
+  "usageLimit": 100,
+  "usedCount": 0,
+  "applicableTypes": [
+    "flight"
+  ],
+  "isActive": true,
+  "createdBy": {
+    "$oid": "6a4600b47fb768e11361e596"
+  },
+  "validFrom": {
+    "$date": "2026-07-02T06:09:58.465Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-02T06:09:58.466Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-02T06:09:58.466Z"
+  }
+}]

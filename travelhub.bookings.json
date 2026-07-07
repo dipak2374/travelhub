@@ -1,0 +1,606 @@
+[{
+  "_id": {
+    "$oid": "6a3fc3142316e22af8ae9d8b"
+  },
+  "user": {
+    "$oid": "6a3f5a8bedd89d20f641163c"
+  },
+  "bookingType": "hotel",
+  "item": {
+    "$oid": "6a3f591fa868c03f4a00b0f4"
+  },
+  "itemModel": "Hotel",
+  "checkIn": null,
+  "checkOut": null,
+  "travelDate": null,
+  "passengers": 1,
+  "guestDetails": [
+    {
+      "name": "Dipak Chavda",
+      "email": "dipakchavda2374@gmail.com",
+      "phone": "09824811401",
+      "_id": {
+        "$oid": "6a3fc3142316e22af8ae9d8c"
+      }
+    }
+  ],
+  "seatNumbers": [],
+  "flightClass": "economy",
+  "totalAmount": 320,
+  "discount": 0,
+  "paymentStatus": "pending",
+  "paymentMethod": "razorpay",
+  "status": "cancelled",
+  "createdAt": {
+    "$date": "2026-06-27T12:33:24.837Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-27T13:13:16.472Z"
+  },
+  "bookingReference": "TH-1782563604838-T2556I",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3fc3392316e22af8ae9da1"
+  },
+  "user": {
+    "$oid": "6a3f5a8bedd89d20f641163c"
+  },
+  "bookingType": "hotel",
+  "item": {
+    "$oid": "6a3f591fa868c03f4a00b0f4"
+  },
+  "itemModel": "Hotel",
+  "checkIn": null,
+  "checkOut": null,
+  "travelDate": null,
+  "passengers": 1,
+  "guestDetails": [
+    {
+      "name": "Dipak Chavda",
+      "email": "dipakchavda2374@gmail.com",
+      "phone": "09824811401",
+      "_id": {
+        "$oid": "6a3fc3392316e22af8ae9da2"
+      }
+    }
+  ],
+  "seatNumbers": [],
+  "flightClass": "economy",
+  "totalAmount": 320,
+  "discount": 0,
+  "paymentStatus": "pending",
+  "paymentMethod": "razorpay",
+  "status": "cancelled",
+  "createdAt": {
+    "$date": "2026-06-27T12:34:01.664Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-27T13:13:13.073Z"
+  },
+  "bookingReference": "TH-1782563641664-6QXCCR",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3fc3842316e22af8ae9dbb"
+  },
+  "user": {
+    "$oid": "6a3f5a8bedd89d20f641163c"
+  },
+  "bookingType": "hotel",
+  "item": {
+    "$oid": "6a3f591fa868c03f4a00b0f4"
+  },
+  "itemModel": "Hotel",
+  "checkIn": {
+    "$date": "2026-07-20T00:00:00.000Z"
+  },
+  "checkOut": {
+    "$date": "2026-07-28T00:00:00.000Z"
+  },
+  "travelDate": null,
+  "passengers": 6,
+  "guestDetails": [
+    {
+      "name": "Dipak Chavda",
+      "email": "dipakchavda2374@gmail.com",
+      "phone": "09824811401",
+      "_id": {
+        "$oid": "6a3fc3842316e22af8ae9dbc"
+      }
+    }
+  ],
+  "seatNumbers": [],
+  "flightClass": "economy",
+  "totalAmount": 2560,
+  "discount": 0,
+  "paymentStatus": "pending",
+  "paymentMethod": "razorpay",
+  "status": "cancelled",
+  "createdAt": {
+    "$date": "2026-06-27T12:35:16.006Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-01T05:03:51.019Z"
+  },
+  "bookingReference": "TH-1782563716006-Q1AQY0",
+  "__v": 0,
+  "refundAmount": 2048,
+  "refundRequestedAt": {
+    "$date": "2026-07-01T05:03:51.018Z"
+  },
+  "refundStatus": "processing"
+},
+{
+  "_id": {
+    "$oid": "6a3fc9287f54243101a5f29c"
+  },
+  "user": {
+    "$oid": "6a3f5a8bedd89d20f641163c"
+  },
+  "bookingType": "flight",
+  "item": {
+    "$oid": "6a3f591fa868c03f4a00b0f7"
+  },
+  "itemModel": "Flight",
+  "checkIn": null,
+  "checkOut": null,
+  "travelDate": {
+    "$date": "2026-06-30T00:00:00.000Z"
+  },
+  "passengers": 2,
+  "guestDetails": [
+    {
+      "name": "Dipak Chavda",
+      "email": "dipakchavda2374@gmail.com",
+      "phone": "9824811401",
+      "_id": {
+        "$oid": "6a3fc9287f54243101a5f29d"
+      }
+    }
+  ],
+  "seatNumbers": [],
+  "flightClass": "business",
+  "totalAmount": 2598,
+  "discount": 0,
+  "paymentStatus": "paid",
+  "paymentMethod": "razorpay",
+  "status": "cancelled",
+  "createdAt": {
+    "$date": "2026-06-27T12:59:20.388Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-01T05:03:46.439Z"
+  },
+  "bookingReference": "TH-1782565160389-V1N9GT",
+  "__v": 0,
+  "paymentId": "pay_T6fEgrqysc5DFJ",
+  "refundAmount": 1299,
+  "refundRequestedAt": {
+    "$date": "2026-07-01T05:03:46.431Z"
+  },
+  "refundStatus": "processing"
+},
+{
+  "_id": {
+    "$oid": "6a3fcac17f54243101a5f2f5"
+  },
+  "user": {
+    "$oid": "6a3f5a8bedd89d20f641163c"
+  },
+  "bookingType": "flight",
+  "item": {
+    "$oid": "6a3f591fa868c03f4a00b0f6"
+  },
+  "itemModel": "Flight",
+  "checkIn": null,
+  "checkOut": null,
+  "travelDate": {
+    "$date": "2026-08-02T00:00:00.000Z"
+  },
+  "passengers": 1,
+  "guestDetails": [
+    {
+      "name": "Dipak Chavda",
+      "email": "dipakchavda2374@gmail.com",
+      "phone": "9824811401",
+      "_id": {
+        "$oid": "6a3fcac17f54243101a5f2f6"
+      }
+    }
+  ],
+  "seatNumbers": [],
+  "flightClass": "economy",
+  "totalAmount": 599,
+  "discount": 0,
+  "paymentStatus": "paid",
+  "paymentMethod": "razorpay",
+  "status": "cancelled",
+  "createdAt": {
+    "$date": "2026-06-27T13:06:09.385Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-01T05:02:10.368Z"
+  },
+  "bookingReference": "TH-1782565569385-TYE7US",
+  "__v": 0,
+  "paymentId": "pay_T6fLnoxiQTb9hH",
+  "refundAmount": 299.5,
+  "refundRequestedAt": {
+    "$date": "2026-07-01T05:02:10.356Z"
+  },
+  "refundStatus": "processing"
+},
+{
+  "_id": {
+    "$oid": "6a3fd2729bfaff835a9f9b7d"
+  },
+  "user": {
+    "$oid": "6a3f5a8bedd89d20f641163c"
+  },
+  "bookingType": "flight",
+  "item": {
+    "$oid": "6a3f591fa868c03f4a00b0f7"
+  },
+  "itemModel": "Flight",
+  "passengers": 1,
+  "guestDetails": [
+    {
+      "name": "dipak chavda",
+      "email": "dipakchavda2374@gmail.com",
+      "phone": "9824811401",
+      "age": 18,
+      "_id": {
+        "$oid": "6a3fd2729bfaff835a9f9b7e"
+      }
+    }
+  ],
+  "seatNumbers": [
+    "3B"
+  ],
+  "flightClass": "economy",
+  "totalAmount": 3348,
+  "discount": 0,
+  "paymentStatus": "paid",
+  "paymentMethod": "razorpay",
+  "status": "confirmed",
+  "createdAt": {
+    "$date": "2026-06-27T13:38:58.640Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-27T13:39:29.200Z"
+  },
+  "bookingReference": "TH-1782567538641-337QWG",
+  "__v": 0,
+  "paymentId": "pay_T6fuUfD3MsCkLN"
+},
+{
+  "_id": {
+    "$oid": "6a40bb06d6b9eed8567f4930"
+  },
+  "user": {
+    "$oid": "6a3f5a8bedd89d20f641163c"
+  },
+  "bookingType": "flight",
+  "item": {
+    "$oid": "6a3f591fa868c03f4a00b0f7"
+  },
+  "itemModel": "Flight",
+  "passengers": 1,
+  "guestDetails": [
+    {
+      "name": "Dipak Chavda",
+      "email": "dipakchavda2374@gmail.com",
+      "phone": "9824811401",
+      "age": 18,
+      "_id": {
+        "$oid": "6a40bb06d6b9eed8567f4931"
+      }
+    }
+  ],
+  "seatNumbers": [
+    "3A"
+  ],
+  "flightClass": "business",
+  "totalAmount": 2399,
+  "discount": 0,
+  "paymentStatus": "paid",
+  "paymentMethod": "razorpay",
+  "status": "confirmed",
+  "createdAt": {
+    "$date": "2026-06-28T06:11:18.130Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-28T06:11:52.276Z"
+  },
+  "bookingReference": "TH-1782627078131-6ZQGZA",
+  "__v": 0,
+  "paymentId": "pay_T6worxq5cfCuWq"
+},
+{
+  "_id": {
+    "$oid": "6a40bc21d6b9eed8567f49a2"
+  },
+  "user": {
+    "$oid": "6a3f5a8bedd89d20f641163c"
+  },
+  "bookingType": "car",
+  "item": {
+    "$oid": "6a3f591fa868c03f4a00b101"
+  },
+  "itemModel": "Car",
+  "checkIn": {
+    "$date": "2027-02-22T00:00:00.000Z"
+  },
+  "checkOut": {
+    "$date": "2027-03-22T00:00:00.000Z"
+  },
+  "travelDate": null,
+  "passengers": 1,
+  "guestDetails": [
+    {
+      "name": "Dipak Chavda",
+      "email": "dipakchavda2374@gmail.com",
+      "phone": "9824811401",
+      "_id": {
+        "$oid": "6a40bc21d6b9eed8567f49a3"
+      }
+    }
+  ],
+  "seatNumbers": [],
+  "flightClass": "economy",
+  "totalAmount": 3360,
+  "discount": 0,
+  "paymentStatus": "pending",
+  "paymentMethod": "razorpay",
+  "status": "pending",
+  "createdAt": {
+    "$date": "2026-06-28T06:16:01.373Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-28T06:16:01.373Z"
+  },
+  "bookingReference": "TH-1782627361373-X94GEA",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a40bc5ad6b9eed8567f49aa"
+  },
+  "user": {
+    "$oid": "6a3f5a8bedd89d20f641163c"
+  },
+  "bookingType": "car",
+  "item": {
+    "$oid": "6a3f591fa868c03f4a00b101"
+  },
+  "itemModel": "Car",
+  "checkIn": {
+    "$date": "2027-02-22T00:00:00.000Z"
+  },
+  "checkOut": {
+    "$date": "2027-03-22T00:00:00.000Z"
+  },
+  "travelDate": null,
+  "passengers": 1,
+  "guestDetails": [
+    {
+      "name": "Dipak Chavda",
+      "email": "dipakchavda2374@gmail.com",
+      "phone": "9824811401",
+      "_id": {
+        "$oid": "6a40bc5ad6b9eed8567f49ab"
+      }
+    }
+  ],
+  "seatNumbers": [],
+  "flightClass": "economy",
+  "totalAmount": 3360,
+  "discount": 0,
+  "paymentStatus": "paid",
+  "paymentMethod": "razorpay",
+  "status": "confirmed",
+  "createdAt": {
+    "$date": "2026-06-28T06:16:58.804Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-28T06:17:51.637Z"
+  },
+  "bookingReference": "TH-1782627418804-YS38UK",
+  "__v": 0,
+  "paymentId": "pay_T6wv5McXg5jRHs"
+},
+{
+  "_id": {
+    "$oid": "6a420eacd1466e3513205b67"
+  },
+  "user": {
+    "$oid": "6a3f5a8bedd89d20f641163c"
+  },
+  "bookingType": "hotel",
+  "item": {
+    "$oid": "6a3f591fa868c03f4a00b0f2"
+  },
+  "itemModel": "Hotel",
+  "checkIn": {
+    "$date": "2027-04-02T00:00:00.000Z"
+  },
+  "checkOut": {
+    "$date": "2027-04-12T00:00:00.000Z"
+  },
+  "travelDate": null,
+  "passengers": 10,
+  "guestDetails": [
+    {
+      "name": "Dipak Chavda",
+      "email": "dipakchavda2374@gmail.com",
+      "phone": "9824811401",
+      "_id": {
+        "$oid": "6a420eacd1466e3513205b68"
+      }
+    }
+  ],
+  "seatNumbers": [],
+  "flightClass": "economy",
+  "totalAmount": 4400,
+  "discount": 100,
+  "coupon": {
+    "$oid": "6a3f591fa868c03f4a00b10b"
+  },
+  "paymentStatus": "paid",
+  "paymentMethod": "razorpay",
+  "status": "confirmed",
+  "createdAt": {
+    "$date": "2026-06-29T06:20:28.307Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-29T06:21:04.656Z"
+  },
+  "bookingReference": "TH-1782714028307-E4KKM4",
+  "__v": 0,
+  "paymentId": "pay_T7LVj4nmrjUn3M"
+},
+{
+  "_id": {
+    "$oid": "6a43628ea41eb540f47cccf1"
+  },
+  "user": {
+    "$oid": "6a3f5a8bedd89d20f641163c"
+  },
+  "bookingType": "tour",
+  "item": {
+    "$oid": "6a42624d7834364334798b7b"
+  },
+  "itemModel": "Tour",
+  "checkIn": null,
+  "checkOut": null,
+  "travelDate": {
+    "$date": "2027-01-01T00:00:00.000Z"
+  },
+  "passengers": 1,
+  "guestDetails": [
+    {
+      "name": "Dipak Chavda",
+      "email": "dipakchavda2374@gmail.com",
+      "phone": "9824811402",
+      "_id": {
+        "$oid": "6a43628ea41eb540f47cccf2"
+      }
+    }
+  ],
+  "seatNumbers": [],
+  "flightClass": "economy",
+  "totalAmount": 99900,
+  "discount": 100,
+  "coupon": {
+    "$oid": "6a3f591fa868c03f4a00b10b"
+  },
+  "paymentStatus": "pending",
+  "paymentMethod": "razorpay",
+  "status": "pending",
+  "createdAt": {
+    "$date": "2026-06-30T06:30:38.518Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-30T06:30:38.518Z"
+  },
+  "bookingReference": "TH-1782801038518-9WDQ69",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a449e2880afc35308ec3329"
+  },
+  "user": {
+    "$oid": "6a3f5a8bedd89d20f641163c"
+  },
+  "bookingType": "tour",
+  "item": {
+    "$oid": "6a42624d7834364334798b7b"
+  },
+  "itemModel": "Tour",
+  "checkIn": null,
+  "checkOut": null,
+  "travelDate": {
+    "$date": "2026-07-02T00:00:00.000Z"
+  },
+  "passengers": 1,
+  "guestDetails": [
+    {
+      "name": "Dipak Chavda",
+      "email": "dipakchavda2374@gmail.com",
+      "phone": "9824811402",
+      "_id": {
+        "$oid": "6a449e2880afc35308ec332a"
+      }
+    }
+  ],
+  "seatNumbers": [],
+  "flightClass": "economy",
+  "totalAmount": 50000,
+  "discount": 0,
+  "paymentStatus": "paid",
+  "paymentMethod": "razorpay",
+  "status": "cancelled",
+  "createdAt": {
+    "$date": "2026-07-01T04:57:12.660Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-01T05:32:48.657Z"
+  },
+  "bookingReference": "TH-1782881832660-AUQMPR",
+  "__v": 0,
+  "paymentId": "pay_T879qqtTyXA1Zb",
+  "refundAmount": 50000,
+  "refundRequestedAt": {
+    "$date": "2026-07-01T05:32:48.656Z"
+  },
+  "refundStatus": "processing"
+},
+{
+  "_id": {
+    "$oid": "6a44a72093378b1452518f70"
+  },
+  "user": {
+    "$oid": "6a3f5a8bedd89d20f641163c"
+  },
+  "bookingType": "flight",
+  "item": {
+    "$oid": "6a425947f42c7d92ff4551e4"
+  },
+  "itemModel": "Flight",
+  "passengers": 1,
+  "guestDetails": [
+    {
+      "name": "hdyks",
+      "email": "hdtfdcd@gmail.com",
+      "phone": "98546323418",
+      "age": 19,
+      "_id": {
+        "$oid": "6a44a72093378b1452518f71"
+      }
+    }
+  ],
+  "seatNumbers": [
+    "10F"
+  ],
+  "flightClass": "economy",
+  "totalAmount": 11100,
+  "discount": 0,
+  "paymentStatus": "paid",
+  "paymentMethod": "razorpay",
+  "status": "confirmed",
+  "refundStatus": null,
+  "refundAmount": 0,
+  "createdAt": {
+    "$date": "2026-07-01T05:35:28.336Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-01T05:35:58.581Z"
+  },
+  "bookingReference": "TH-1782884128336-KOW8V3",
+  "__v": 0,
+  "paymentId": "pay_T87oKn9nIuyju0"
+}]

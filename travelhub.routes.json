@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "6a4600b67fb768e11361e5a9"
+  },
+  "origin": "New York",
+  "destination": "Boston",
+  "distance": 346,
+  "duration": 240,
+  "stops": [],
+  "owner": {
+    "$oid": "6a4600b57fb768e11361e59c"
+  },
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-07-02T06:09:58.438Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-02T06:09:58.438Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4600b67fb768e11361e5ab"
+  },
+  "origin": "Los Angeles",
+  "destination": "San Francisco",
+  "distance": 615,
+  "duration": 420,
+  "stops": [],
+  "owner": {
+    "$oid": "6a4600b57fb768e11361e59c"
+  },
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-07-02T06:09:58.442Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-02T06:09:58.442Z"
+  },
+  "__v": 0
+}]

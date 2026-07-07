@@ -1,0 +1,374 @@
+[{
+  "_id": {
+    "$oid": "6a4600b47fb768e11361e596"
+  },
+  "name": "Admin User",
+  "email": "admin@travelhub.com",
+  "password": "$2a$12$4ddgyYK.W9AvbE2aEC4xleFBBj1z6GL0h8/Vwu.t9d2pSDvEETNRG",
+  "role": "admin",
+  "avatar": "",
+  "isVerified": true,
+  "isActive": true,
+  "wishlist": [],
+  "wishlistModel": [],
+  "agencyProfile": {
+    "isApproved": false
+  },
+  "partnerProfile": {
+    "isApproved": false
+  },
+  "createdAt": {
+    "$date": "2026-07-02T06:09:56.454Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-02T06:09:56.454Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4600b47fb768e11361e598"
+  },
+  "name": "Wanderlust Travels",
+  "email": "agency@travelhub.com",
+  "password": "$2a$12$7Ft30eUpCs1uBXm.eCZU8.uqRvsZdf47HVikvYSSRDjnOa2aw7/ge",
+  "role": "travel_agency",
+  "avatar": "",
+  "isVerified": true,
+  "isActive": true,
+  "wishlist": [],
+  "wishlistModel": [],
+  "agencyProfile": {
+    "companyName": "Wanderlust Travels",
+    "licenseNumber": "TA-2024-001",
+    "description": "Premium travel agency specializing in luxury tours and hotels.",
+    "address": "123 Travel Street, New York",
+    "isApproved": true
+  },
+  "partnerProfile": {
+    "isApproved": false
+  },
+  "createdAt": {
+    "$date": "2026-07-02T06:09:56.800Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-02T06:09:56.800Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4600b57fb768e11361e59a"
+  },
+  "name": "SkyWings Airlines",
+  "email": "airline@travelhub.com",
+  "password": "$2a$12$WzQhENNhP5R2TnJTEn1h3Oprzhw6Z1M4ICrmq83YUbhRFpvXYw9/a",
+  "role": "airline_partner",
+  "avatar": "",
+  "isVerified": true,
+  "isActive": true,
+  "wishlist": [],
+  "wishlistModel": [],
+  "agencyProfile": {
+    "isApproved": false
+  },
+  "partnerProfile": {
+    "companyName": "SkyWings Airlines",
+    "isApproved": true
+  },
+  "createdAt": {
+    "$date": "2026-07-02T06:09:57.120Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-02T06:09:57.120Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4600b57fb768e11361e59c"
+  },
+  "name": "Express Bus Co",
+  "email": "bus@travelhub.com",
+  "password": "$2a$12$w54TbrEUWZon0hkMANaoaOHGttJlkPqPUXZjlvuqRyblGc1blc1p2",
+  "role": "bus_operator",
+  "avatar": "",
+  "isVerified": true,
+  "isActive": true,
+  "wishlist": [],
+  "wishlistModel": [],
+  "agencyProfile": {
+    "isApproved": false
+  },
+  "partnerProfile": {
+    "companyName": "Express Bus Co",
+    "isApproved": true
+  },
+  "createdAt": {
+    "$date": "2026-07-02T06:09:57.447Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-02T06:09:57.447Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4600b57fb768e11361e59e"
+  },
+  "name": "DriveEasy Rentals",
+  "email": "car@travelhub.com",
+  "password": "$2a$12$V28Ga/CQEP0IhJpwBR0o5OwLFJa/RoDXwKQ3MC3BY.Ko4JXMPeP4O",
+  "role": "car_rental_partner",
+  "avatar": "",
+  "isVerified": true,
+  "isActive": true,
+  "wishlist": [],
+  "wishlistModel": [],
+  "agencyProfile": {
+    "isApproved": false
+  },
+  "partnerProfile": {
+    "companyName": "DriveEasy Rentals",
+    "isApproved": true
+  },
+  "createdAt": {
+    "$date": "2026-07-02T06:09:57.765Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-02T06:09:57.765Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4600b67fb768e11361e5a0"
+  },
+  "name": "John Doe",
+  "email": "customer@travelhub.com",
+  "password": "$2a$12$fbd.I6iFgwzKl27wyf/rHeRuS3IsEVaD.OlXrHfWhmp6/C0Qx1lry",
+  "phone": "+1-555-0100",
+  "role": "customer",
+  "avatar": "",
+  "isVerified": true,
+  "isActive": true,
+  "wishlist": [],
+  "wishlistModel": [],
+  "agencyProfile": {
+    "isApproved": false
+  },
+  "partnerProfile": {
+    "isApproved": false
+  },
+  "createdAt": {
+    "$date": "2026-07-02T06:09:58.088Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-02T06:09:58.088Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a46422f7f20aca19a1c53a4"
+  },
+  "name": "Dipak Chavda",
+  "email": "dipakchavda2374@gmail.com",
+  "password": "$2a$12$ZgNXuo/1zI3soFc7UZay/OdsRHUVJB1NVhXasqhd9SZMXKOOshnEC",
+  "phone": "09824811401",
+  "role": "customer",
+  "avatar": "",
+  "isVerified": false,
+  "isActive": true,
+  "wishlist": [],
+  "wishlistModel": [],
+  "agencyProfile": {
+    "isApproved": false
+  },
+  "partnerProfile": {
+    "isApproved": false
+  },
+  "createdAt": {
+    "$date": "2026-07-02T10:49:19.977Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-03T12:43:04.371Z"
+  },
+  "__v": 0,
+  "otp": "838749",
+  "otpExpires": {
+    "$date": "2026-07-03T12:53:04.367Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a47a543965e8c2c5abff043"
+  },
+  "name": "Taksh",
+  "email": "taksh@gmail.com",
+  "password": "$2a$12$70lXTab9USYv1cHKvBqcmOWg.xHq8snI8LDx4kRGMPcv0.qZnRHVW",
+  "phone": "09824811401",
+  "role": "customer",
+  "avatar": "",
+  "isVerified": false,
+  "isActive": true,
+  "wishlist": [],
+  "wishlistModel": [],
+  "agencyProfile": {
+    "isApproved": false
+  },
+  "partnerProfile": {
+    "isApproved": false
+  },
+  "createdAt": {
+    "$date": "2026-07-03T12:04:19.434Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-03T12:04:19.434Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a47ab45965e8c2c5abff049"
+  },
+  "name": "dfkdfklhdhf",
+  "email": "sadhlshfdls@gmail.com",
+  "password": "$2a$12$AEbI5ui0rH3YRK5a4dhoRevKlfV6mh4sYfQMvO5LMjKNTvXRl/Pp.",
+  "phone": "2323433213",
+  "role": "customer",
+  "avatar": "",
+  "isVerified": false,
+  "isActive": true,
+  "wishlist": [],
+  "wishlistModel": [],
+  "agencyProfile": {
+    "isApproved": false
+  },
+  "partnerProfile": {
+    "isApproved": false
+  },
+  "createdAt": {
+    "$date": "2026-07-03T12:29:57.342Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-03T12:34:27.000Z"
+  },
+  "__v": 0,
+  "otp": "231415",
+  "otpExpires": {
+    "$date": "2026-07-03T12:44:26.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a47aea807671fbc3d305af3"
+  },
+  "name": "ituhrihg",
+  "email": "fkebfjdfj@gmail.com",
+  "password": "$2a$12$py9vENoovyZeeWQzm/JRmep9hyOhgTwxFduGWsr8oC.syZerQnpom",
+  "phone": "395754998",
+  "role": "customer",
+  "avatar": "",
+  "isVerified": false,
+  "isActive": true,
+  "wishlist": [],
+  "wishlistModel": [],
+  "agencyProfile": {
+    "isApproved": false
+  },
+  "partnerProfile": {
+    "isApproved": false
+  },
+  "createdAt": {
+    "$date": "2026-07-03T12:44:24.886Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-03T12:44:24.886Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a47b6ff07671fbc3d305af9"
+  },
+  "name": "dsdfghfgjgh",
+  "email": "fjfgnvkv@gmail.com",
+  "password": "$2a$12$38wxWORYmM3rbWqW6YvGD.cPjbKeGGYF2sLFLw5Gvd.Yv7cDggLUu",
+  "phone": "9857384953",
+  "role": "customer",
+  "avatar": "",
+  "isVerified": false,
+  "isActive": true,
+  "wishlist": [],
+  "wishlistModel": [],
+  "agencyProfile": {
+    "isApproved": false
+  },
+  "partnerProfile": {
+    "isApproved": false
+  },
+  "createdAt": {
+    "$date": "2026-07-03T13:19:59.882Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-03T13:19:59.882Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4ba01bd2d998f2ed5b3cc8"
+  },
+  "name": "Dipak Chavda",
+  "email": "csdfdj@gmail.com",
+  "password": "$2a$12$xTs.oGkhPswfiF9VvY0U/OgVF18jt8AfHMCn74DqqRrVxT0thgzxe",
+  "phone": "9824811401",
+  "role": "customer",
+  "avatar": "",
+  "isVerified": false,
+  "isActive": true,
+  "wishlist": [],
+  "wishlistModel": [],
+  "agencyProfile": {
+    "isApproved": false
+  },
+  "partnerProfile": {
+    "isApproved": false
+  },
+  "createdAt": {
+    "$date": "2026-07-06T12:31:23.379Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-06T12:31:23.379Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4bac5deaac6baa535d65af"
+  },
+  "name": "Dipak Chavda",
+  "email": "dfhkdghlkdh@gmail.com",
+  "password": "$2a$12$l/J.WxN.0zEGADoduUnMZe5gizaTmzAM.IXROyE6goEti8igi4e0O",
+  "phone": "9824811401",
+  "role": "customer",
+  "avatar": "",
+  "isVerified": false,
+  "isActive": true,
+  "wishlist": [],
+  "wishlistModel": [],
+  "agencyProfile": {
+    "isApproved": false
+  },
+  "partnerProfile": {
+    "isApproved": false
+  },
+  "createdAt": {
+    "$date": "2026-07-06T13:23:41.967Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-06T13:23:41.967Z"
+  },
+  "__v": 0
+}]

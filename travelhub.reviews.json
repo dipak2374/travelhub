@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "6a4668c19920951213d30d79"
+  },
+  "user": {
+    "$oid": "6a46422f7f20aca19a1c53a4"
+  },
+  "item": {
+    "$oid": "6a4600b67fb768e11361e5a3"
+  },
+  "itemModel": "Hotel",
+  "rating": 3,
+  "title": "sdsds",
+  "comment": "sdfdsf",
+  "isApproved": true,
+  "createdAt": {
+    "$date": "2026-07-02T13:33:53.102Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-02T13:33:53.102Z"
+  },
+  "__v": 0
+}]
