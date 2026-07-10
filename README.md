@@ -118,6 +118,29 @@ CLIENT_URL=http://localhost:5173
 npm run seed
 ```
 
+### 3.1 Production Bootstrap and Safe Seed
+
+For deployed environments, use the built-in safe seed flow and bootstrap admin support.
+
+- Set `BOOTSTRAP_ADMIN_SECRET` in your production environment.
+- Render / other hosts should use `web: npm run safe-start` so the app bootstraps before starting.
+- The safe seed script only creates missing admin/partner/demo listings and never overwrites existing data.
+
+To manually bootstrap admin after deployment:
+
+```bash
+curl -X POST https://<your-backend-url>/api/auth/bootstrap-admin \
+  -H "Content-Type: application/json" \
+  -d '{
+    "secret": "<your-bootstrap-secret>",
+    "email": "admin@travelhub.com",
+    "password": "admin123",
+    "name": "Admin User"
+  }'
+```
+
+If an admin already exists, the endpoint returns a success response without creating a duplicate.
+
 ### 4. Run Development Servers
 
 ```bash
@@ -161,13 +184,19 @@ npm run start        # Starts server + client preview
 |--------|----------|-------------|
 | POST | `/api/auth/register` | Register user |
 | POST | `/api/auth/login` | Login |
+| POST | `/api/auth/bootstrap-admin` | One-time bootstrap admin creation |
 | POST | `/api/auth/otp/send` | Send OTP |
 | POST | `/api/auth/otp/verify` | Verify OTP |
 | GET | `/api/hotels` | List hotels |
+| POST | `/api/hotels` | Create hotel (travel_agency or admin) |
 | GET | `/api/flights` | List flights |
+| POST | `/api/flights` | Create flight (airline_partner or admin) |
 | GET | `/api/buses` | List buses |
+| POST | `/api/buses` | Create bus (bus_operator or admin) |
 | GET | `/api/cars` | List cars |
+| POST | `/api/cars` | Create car (car_rental_partner or admin) |
 | GET | `/api/tours` | List tours |
+| POST | `/api/tours` | Create tour (travel_agency or admin) |
 | POST | `/api/bookings` | Create booking |
 | POST | `/api/bookings/payment/create-order` | Create payment |
 | POST | `/api/bookings/payment/verify` | Verify payment |
@@ -178,6 +207,123 @@ npm run start        # Starts server + client preview
 | POST | `/api/coupons/validate` | Validate coupon |
 | GET | `/api/notifications` | User notifications |
 | POST | `/api/wishlist/toggle` | Toggle wishlist |
+
+### Creating Listings with curl
+
+1. Login and obtain a token:
+
+```bash
+curl -X POST https://<your-backend-url>/api/auth/login \
+  -H "Content-Type: application/json" \
+  -d '{"email":"admin@travelhub.com","password":"admin123"}'
+```
+
+2. Use the returned `token` as `Authorization: Bearer <token>`.
+
+3. Create a hotel:
+
+```bash
+curl -X POST https://<your-backend-url>/api/hotels \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer <token>" \
+  -d '{
+    "name": "City View Hotel",
+    "description": "Comfortable city hotel with rooftop lounge.",
+    "location": {
+      "address": "123 Main St",
+      "city": "New York",
+      "country": "USA",
+      "coordinates": {"lat":40.7128,"lng":-74.006}
+    },
+    "images": ["https://example.com/image1.jpg"],
+    "amenities": ["WiFi","Pool","Gym"],
+    "starRating": 4,
+    "pricePerNight": 150,
+    "totalRooms": 60,
+    "availableRooms": 60
+  }'
+```
+
+4. Create a flight:
+
+```bash
+curl -X POST https://<your-backend-url>/api/flights \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer <token>" \
+  -d '{
+    "flightNumber": "TR-100",
+    "airline": "TravelHub Airlines",
+    "origin": {"city":"New York","airport":"JFK","code":"JFK"},
+    "destination": {"city":"London","airport":"LHR","code":"LHR"},
+    "departureTime": "2026-08-01T09:00:00.000Z",
+    "arrivalTime": "2026-08-01T19:30:00.000Z",
+    "duration": 570,
+    "price": {"economy": 499, "business": 1499, "firstClass": 2999},
+    "totalSeats": 220,
+    "availableSeats": 220
+  }'
+```
+
+5. Create a bus:
+
+```bash
+curl -X POST https://<your-backend-url>/api/buses \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer <token>" \
+  -d '{
+    "busNumber": "BUS-101",
+    "operator": "TravelHub Bus Lines",
+    "route": {"origin":"New York","destination":"Boston"},
+    "departureTime": "2026-08-05T08:00:00.000Z",
+    "arrivalTime": "2026-08-05T12:00:00.000Z",
+    "busType": "Luxury",
+    "totalSeats": 40,
+    "availableSeats": 40,
+    "price": 50,
+    "amenities": ["WiFi","AC","USB Charging"]
+  }'
+```
+
+6. Create a car:
+
+```bash
+curl -X POST https://<your-backend-url>/api/cars \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer <token>" \
+  -d '{
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2025,
+    "category": "Economy",
+    "transmission": "Automatic",
+    "fuelType": "Hybrid",
+    "seats": 5,
+    "pricePerDay": 55,
+    "images": ["https://example.com/car1.jpg"],
+    "features": ["GPS","Bluetooth","Backup Camera"],
+    "location": {"city":"New York","address":"JFK Airport"}
+  }'
+```
+
+7. Create a tour:
+
+```bash
+curl -X POST https://<your-backend-url>/api/tours \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer <token>" \
+  -d '{
+    "title": "Coastal Escape",
+    "description": "5-day beach and island tour with guided excursions.",
+    "destination": "Hawaii",
+    "duration": 5,
+    "price": 1499,
+    "maxGroupSize": 20,
+    "images": ["https://example.com/tour1.jpg"],
+    "itinerary": [{"day":1,"title":"Arrival","description":"Welcome reception"}],
+    "inclusions": ["Hotels","Breakfast","Transport"],
+    "exclusions": ["Flights","Visa"]
+  }'
+```
 
 ---
 
@@ -196,6 +342,7 @@ npm run start        # Starts server + client preview
 | `RAZORPAY_*` | Razorpay payment keys |
 | `STRIPE_*` | Stripe payment keys |
 | `GOOGLE_MAPS_API_KEY` | Google Maps embed |
+| `GOOGLE_CLIENT_ID` | Google OAuth client ID for server-side token verification |
 
 ### Client (`client/.env`)
 | Variable | Description |
@@ -205,6 +352,11 @@ npm run start        # Starts server + client preview
 | `VITE_RAZORPAY_KEY_ID` | Razorpay public key |
 | `VITE_STRIPE_PUBLISHABLE_KEY` | Stripe public key |
 | `VITE_GOOGLE_MAPS_API_KEY` | Google Maps key |
+| `VITE_GOOGLE_CLIENT_ID` | Google OAuth client ID used by Google Identity Services |
+
+> Note: The app uses Google Identity Services on the client and sends the `idToken` to `/api/auth/google` for verification. The critical OAuth configuration is the app's authorized JavaScript origin.
+>
+> For local development, set the authorized origin to `http://localhost:5173`.
 
 ---
 
